@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  People
+
+  Created by Andrey on 13.03.2023.
+  
+*/
+
+"people.header.title" = "People";
+"human.distance" = "Distance";
+"people.search.placeholder" = "Search people";
+
+"alert.location.openSettings.title" = "Open settings";
+"alert.location.openSettings.message" = "Open settings to enable geolocation access?";
+"alert.open" = "Open";
+"alert.cancel" = "Cancel";

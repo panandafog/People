@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cat_cats_eyes_cat_face.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
