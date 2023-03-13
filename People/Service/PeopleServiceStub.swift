@@ -1,5 +1,5 @@
 //
-//  PeopleServiceMock.swift
+//  PeopleServiceStub.swift
 //  People
 //
 //  Created by Andrey on 10.03.2023.
@@ -7,7 +7,7 @@
 
 import CoreLocation
 
-class PeopleServiceMock: PeopleService {
+class PeopleServiceStub: PeopleService {
     
     private let peopleCount = 100
     private let avatarsCount = 6
@@ -61,6 +61,6 @@ class PeopleServiceMock: PeopleService {
     }
     
     func searchPeople(query: String, completion: PeopleHandler) {
-        completion(allPeople.filter({ $0.name.contains(query) }))
+        completion(allPeople.filter { $0.name.contains(query) })
     }
 }

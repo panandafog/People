@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B5D897B29BDDA6C00E2E086 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D897A29BDDA6C00E2E086 /* ImageService.swift */; };
-		0B5D897D29BDDAB700E2E086 /* ImageServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D897C29BDDAB700E2E086 /* ImageServiceMock.swift */; };
+		0B5D897D29BDDAB700E2E086 /* ImageServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D897C29BDDAB700E2E086 /* ImageServiceStub.swift */; };
 		0B5D897F29BE1B8700E2E086 /* PeoplePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D897E29BE1B8700E2E086 /* PeoplePage.swift */; };
 		0B5D898129BE6A3000E2E086 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D898029BE6A3000E2E086 /* HeaderView.swift */; };
 		0B6D2AD329BA625D00B65425 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AD229BA625D00B65425 /* Coordinator.swift */; };
@@ -19,7 +19,7 @@
 		0B6D2AE029BA6ACF00B65425 /* HumanTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2ADF29BA6ACF00B65425 /* HumanTableCell.swift */; };
 		0B6D2AE229BB27D100B65425 /* HumanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AE129BB27D100B65425 /* HumanViewModel.swift */; };
 		0B6D2AE529BB298000B65425 /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AE429BB298000B65425 /* PeopleService.swift */; };
-		0B6D2AE729BB298C00B65425 /* PeopleServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AE629BB298C00B65425 /* PeopleServiceMock.swift */; };
+		0B6D2AE729BB298C00B65425 /* PeopleServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AE629BB298C00B65425 /* PeopleServiceStub.swift */; };
 		0B6D2AEA29BB2B0300B65425 /* Container+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AE929BB2B0300B65425 /* Container+Extensions.swift */; };
 		0B6D2AEC29BB302200B65425 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AEB29BB302200B65425 /* LocationService.swift */; };
 		0B6D2AEE29BB32CF00B65425 /* LocationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D2AED29BB32CF00B65425 /* LocationServiceDelegate.swift */; };
@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0B5D897A29BDDA6C00E2E086 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		0B5D897C29BDDAB700E2E086 /* ImageServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceMock.swift; sourceTree = "<group>"; };
+		0B5D897C29BDDAB700E2E086 /* ImageServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceStub.swift; sourceTree = "<group>"; };
 		0B5D897E29BE1B8700E2E086 /* PeoplePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplePage.swift; sourceTree = "<group>"; };
 		0B5D898029BE6A3000E2E086 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		0B6D2AD229BA625D00B65425 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		0B6D2ADF29BA6ACF00B65425 /* HumanTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTableCell.swift; sourceTree = "<group>"; };
 		0B6D2AE129BB27D100B65425 /* HumanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewModel.swift; sourceTree = "<group>"; };
 		0B6D2AE429BB298000B65425 /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
-		0B6D2AE629BB298C00B65425 /* PeopleServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleServiceMock.swift; sourceTree = "<group>"; };
+		0B6D2AE629BB298C00B65425 /* PeopleServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleServiceStub.swift; sourceTree = "<group>"; };
 		0B6D2AE929BB2B0300B65425 /* Container+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Extensions.swift"; sourceTree = "<group>"; };
 		0B6D2AEB29BB302200B65425 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		0B6D2AED29BB32CF00B65425 /* LocationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceDelegate.swift; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				0B5D897A29BDDA6C00E2E086 /* ImageService.swift */,
-				0B5D897C29BDDAB700E2E086 /* ImageServiceMock.swift */,
+				0B5D897C29BDDAB700E2E086 /* ImageServiceStub.swift */,
 				0B6D2AE429BB298000B65425 /* PeopleService.swift */,
-				0B6D2AE629BB298C00B65425 /* PeopleServiceMock.swift */,
+				0B6D2AE629BB298C00B65425 /* PeopleServiceStub.swift */,
 				0B6D2AEB29BB302200B65425 /* LocationService.swift */,
 				0B6D2AED29BB32CF00B65425 /* LocationServiceDelegate.swift */,
 			);
@@ -336,11 +336,11 @@
 				0B5D897F29BE1B8700E2E086 /* PeoplePage.swift in Sources */,
 				0B87762029BF1FAC00F5B7B2 /* CGRect+Extensions.swift in Sources */,
 				0B6D2AEA29BB2B0300B65425 /* Container+Extensions.swift in Sources */,
-				0B6D2AE729BB298C00B65425 /* PeopleServiceMock.swift in Sources */,
+				0B6D2AE729BB298C00B65425 /* PeopleServiceStub.swift in Sources */,
 				0B6D2AD329BA625D00B65425 /* Coordinator.swift in Sources */,
 				0B6D2AE529BB298000B65425 /* PeopleService.swift in Sources */,
 				0B912F4329BA2C88000271F4 /* PeopleViewController.swift in Sources */,
-				0B5D897D29BDDAB700E2E086 /* ImageServiceMock.swift in Sources */,
+				0B5D897D29BDDAB700E2E086 /* ImageServiceStub.swift in Sources */,
 				0B912F3F29BA2C88000271F4 /* AppDelegate.swift in Sources */,
 				0B87761E29BF140C00F5B7B2 /* String+Localization.swift in Sources */,
 				0B6D2AE029BA6ACF00B65425 /* HumanTableCell.swift in Sources */,
