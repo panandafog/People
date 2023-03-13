@@ -13,11 +13,11 @@ extension Container {
         let container = Container()
         
         container.register(PeopleService.self) { _ in
-            PeopleServiceMock()
+            PeopleServiceStub()
         }
         
         container.register(ImageService.self) { _ in
-            ImageServiceMock()
+            ImageServiceStub()
         }
         
         container.register(LocationService.self) { _ in
